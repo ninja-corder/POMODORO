@@ -21,7 +21,6 @@ def reset_timer():
     check_box.config(text="")
     global reps
     reps = 0
-# ---------------------------- TIMER MECHANISM ------------------------------- #
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 def count_down(count):
@@ -41,8 +40,8 @@ def count_down(count):
         for t in range(work_sessions):
             mark += "✔"
         check_box.config(text=mark)
-
-
+        
+# ---------------------------- TIMER MECHANISM ------------------------------- #
 def start_timer():
     global reps
     reps+=1
